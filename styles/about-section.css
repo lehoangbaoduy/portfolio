@@ -63,10 +63,6 @@
     border-bottom: 0;
 }
 
-.bubble:hover{
-    height: 55px;
-}
-
 #about-name{
     font-family: 'Katibeh', cursive;
     font-size: 70px;
@@ -142,6 +138,7 @@
 .social-media ul li a span{
     width: 100%;
     height: 100%;
+    font-size: 20px;
 }
 
 .social-media ul li a span:before{
@@ -158,6 +155,22 @@
     color: white;
     transform-origin: top;
     transition: transform .5s;
+}
+
+.social-media ul li:nth-child(1) a span:before{
+    color: #0a66c2;
+}
+.social-media ul li:nth-child(2) a span:before{
+    color: #4267b2;
+}
+.social-media ul li:nth-child(3) a span:before{
+    color: #df3177;
+}
+.social-media ul li:nth-child(4) a span:before{
+    color: #00aff0;
+}
+.social-media ul li:nth-child(5) a span:before{
+    color: #dc4737;
 }
 
 .social-media ul li:hover a span:before{
@@ -205,12 +218,12 @@
 
 .social-media ul li:nth-child(4) a span:before,
 .social-media ul li:nth-child(4) a span::after{
-    content: '\f232';
+    content: '\f17e';
 }
 
 .social-media ul li:nth-child(5) a span:before,
 .social-media ul li:nth-child(5) a span::after{
-    content: '\f0e0';
+    content: '\f0d2';
 }
 
 .social-media ul li:nth-child(1) a span:after{
@@ -226,12 +239,12 @@
     box-shadow: 0 0 10px #df3177, 0 0 40px #df3177, 0 0 80px #df3177;
 }
 .social-media ul li:nth-child(4) a span:after{
-    background: green;
-    box-shadow: 0 0 10px green, 0 0 40px green, 0 0 80px green;
+    background: #00aff0;
+    box-shadow: 0 0 10px #00aff0, 0 0 40px #00aff0, 0 0 80px #00aff0;
 }
 .social-media ul li:nth-child(5) a span:after{
-    background: #dc4737;
-    box-shadow: 0 0 10px #dc4737, 0 0 40px #dc4737, 0 0 80px #dc4737;
+    background: #c8232c;
+    box-shadow: 0 0 10px #c8232c, 0 0 40px #c8232c, 0 0 80px #c8232c;
 }
 
 @media (min-width: 960px){

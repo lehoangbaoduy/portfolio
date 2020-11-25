@@ -283,13 +283,15 @@ a:hover{
 .text{
     line-height: 1.2;
     text-transform: initial;
-    font-weight: 300;
+    font-weight: 600;
     color: black;
     margin-bottom: 10px;
+    font-family: 'Texturina', serif;
 }
 
 .right h3{
     color: black;
+    font-family: 'Texturina', serif;
 }
 
 .number{

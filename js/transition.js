@@ -1,6 +1,6 @@
 window.onload = () => {
     const transition_el = document.querySelector('.preloader');
-    const anchors = document.querySelectorAll('a');
+    const anchors = document.querySelectorAll('.nav-a');
 
     setTimeout(() => {
         transition_el.classList.remove('is-active');
