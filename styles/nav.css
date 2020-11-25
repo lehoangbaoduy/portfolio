@@ -1,0 +1,298 @@
+#vertical{
+    background: #121212;
+    width: 70px;
+    height: 100%;
+    top: 0;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: 1s;
+}
+
+#horizon{
+    background: #121212;
+    width: 100%;
+    height: 70px;
+    display: none;
+    position: relative;
+    flex-direction: row;
+}
+
+#toggleNav{
+    background: #121212;
+    width: 100%;
+    height: 70px;
+    display: none;
+    position: relative;
+    flex-direction: row;
+    transition: 1s;
+}
+
+.logo img{
+    display: block;
+    width: 70px;
+    height: auto;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: bottom;
+}
+
+.navbar-item{
+    padding-top: 100px;
+    width: 70px;
+}
+
+.navbar-item li>span:nth-child(1){
+    color: #8c8c8c;
+}
+
+.navbar-item ul{
+    padding: 0;
+    display: flex;
+}
+
+.navbar-item ul li{
+    margin-bottom: 15px;
+}
+
+.navbar-item li>span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    transition: 1s;
+}
+
+.navbar-item li{
+    height: 50px;
+    align-items: center;
+    overflow: hidden;
+}
+
+.navbar-item a{
+    color: #0cb99f;
+    text-decoration: none;
+    font-size: 11px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-item li:hover span{
+    transform: translateY(-100%);
+    color: #0cb99f;
+}
+
+#active {
+    color: #0cb99f;
+}
+
+.social-icon li{
+    padding-left: 25px;
+    margin-top: 30px;
+}
+
+.social-icon li a{
+    color: #8c8c8c;
+    cursor: pointer;
+    font-size: 20px;
+    transition: 0.7s;
+}
+
+/* .social-icon li a:hover{
+    color: #0cb99f;
+
+} */
+
+.horizon-item{
+    width: 70px;
+}
+
+.horizon-row{
+    width: 100%;
+}
+
+#linkedin-horizon{
+    color: #8c8c8c;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 1s;
+    z-index: 5;
+}
+
+#facebook-horizon{
+    color: #8c8c8c;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 1s;
+    z-index: 5;
+}
+
+#instagram-horizon{
+    color: #8c8c8c;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 1s;
+    z-index: 5;
+}
+
+#linkedin-horizon:hover{
+    color: #0cb99f;
+}
+
+#facebook-horizon:hover{
+    color: #0cb99f;
+}
+
+#instagram-horizon:hover{
+    color: #0cb99f;
+}
+
+.horizon-image{
+    width: 70px;
+    height: 70px;
+    margin-left: -31px;
+}
+
+.media-horizon{
+    z-index: 100;
+}
+
+#toggle-nav-button{
+    background-color: transparent;
+    color: #8c8c8c;
+    display: none;
+}
+
+.toggle-row{
+    width: 100%;
+}
+
+.toggle-item{
+    width: 70px;
+}
+
+#item-toggle{
+    width: 100%;
+}
+
+#linkedin-toggle{
+    color: #8c8c8c;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+#facebook-toggle{
+    color: #8c8c8c;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+#instagram-toggle{
+    color: #8c8c8c;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+#linkedin-toggle:hover{
+    color: #0cb99f;
+}
+
+#facebook-toggle:hover{
+    color: #0cb99f;
+}
+
+#instagram-toggle:hover{
+    color: #0cb99f;
+}
+
+main{
+    padding-left: 70px;
+}
+
+@media (max-width: 960px) {
+    #vertical{
+        display: none;
+    }
+
+    #horizon{
+        display: flex;
+    }
+
+    main{
+        padding-left: 0px;
+    }
+
+    .navbar-item{
+        padding-top: 20px;
+    }
+}
+
+@media (max-width: 750px) {
+    .horizon-row{
+        display: none;
+    }
+
+    #linkedin-horizon{
+        display: none;
+    }
+
+    #facebook-horizon{
+        display: none;
+    }
+
+    #instagram-horizon{
+        display: none;
+    }
+
+    #toggle-nav-button{
+        display: flex;
+        float: right;
+    }
+}
+
+@media (max-width: 525px){
+    #toggleNav a{
+        font-size: 6.5px;
+    }
+
+    
+}
+
+@media (max-width: 335px){
+    #toggleNav .experience-link{
+        font-size: 5px;
+    }
+
+    #toggleNav .education-link{
+        font-size: 5px;
+    }
+}
+
+@media (max-width: 320px){
+    #toggleNav a{
+        font-size: 7px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
