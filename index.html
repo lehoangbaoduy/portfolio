@@ -432,6 +432,7 @@
                         <input type="radio" class="third" id="thirdradio" name="bright">
                         <input type="radio" class="fourth" id="fourthradio" name="bright">
                         <input type="radio" class="fifth" id="fifthradio" name="bright">
+                        <input type="radio" class="sixth" id="sixthradio" name="bright">
 
                         <div class="head">
                             <ul class="navlist">
@@ -448,7 +449,10 @@
                                     <h2 class="inner" id="fourth-inner">May 2020 - Aug 2020</h2>
                                 </li>
                                 <li class="st5" id="step5" onclick="showst5()">
-                                    <h2 class="inner" id="fifth-inner">Aug 2020 - Present</h2>
+                                    <h2 class="inner" id="fifth-inner">Aug 2020 - Dec 2020</h2>
+                                </li>
+                                <li class="st6" id="step6" onclick="showst6()">
+                                    <h2 class="inner" id="sixth-inner">Jan 2021 - Present</h2>
                                 </li>
                             </ul>
 
@@ -471,8 +475,6 @@
                             </section>
 
                             <section class="second-section">
-
-
                                 <span><img src="assets/images/education_section/toledo-logo.png" alt=""></span>
 
                                 <h2>Undergraduate Teaching Assistant</h2>
@@ -520,9 +522,21 @@
                                     prediction.<br> <br>
                                     - Researching about machine learning, deep learning and neuron network.</p>
                             </section>
+
+                            <section class="sixth-section">
+                                <span><img src="assets/images/education_section/Nysus-Logo-1.png" alt="" width="200"
+                                        height="200"></span>
+
+                                <h2>System Software Developer</h2>
+                                <p>- Maintain and update (mainly web-based) manufacturing software systems related to: just-in-time manufacturing execution system (MES), 
+                                    data collection systems, and web-based administrative applications. Many involving integration to PLCs. <br></br>
+                                    - Participate in design efforts related to new system projects and support the implementation and ongoing use of these applications.<br></br>
+                                    - Support existing applications using tools developed and MS SQL Server Management Studio.<br></br>
+                                    - Ensure the reliability and accuracy of all systems implemented at Nysus Solutions.<br></br>
+                                    - Work with the Lead Application Architect to design and deploy a robust architecture that will facilitate growth of new applications being developed and deployed.</p>
+                            </section>
                         </div>
                     </div>
-                </div>
             </section>
 
             <section id="skill-main" class="my-5" data-aos="fade-down">
@@ -1041,61 +1055,69 @@
 
                 <div class="contact-content" data-aos="fade-left">
                     <div class="contact-container">
-                        <div class="row">
-                            <div class="col">
-                                <div class="inputBox">
-                                    <input type="text" name="" required="required">
-                                    <span class="contact-text">First Name</span>
-                                    <span class="contact-line"></span>
+                        <form action="https://formspree.io/f/mrgojkvl" method="POST" id="contact-form">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="inputBox">
+                                        <input type="text" name="firstName" required="required" id="inputFirstName">
+                                        <span class="contact-text">First Name</span>
+                                        <span class="contact-line"></span>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="inputBox">
+                                        <input type="text" name="lastName" required="required" id="inputLastName">
+                                        <span class="contact-text">Last Name</span>
+                                        <span class="contact-line"></span>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="col">
-                                <div class="inputBox">
-                                    <input type="text" name="" required="required">
-                                    <span class="contact-text">Last Name</span>
-                                    <span class="contact-line"></span>
+    
+                            <div class="row">
+                                <div class="col">
+                                    <div class="inputBox">
+                                        <input type="text" name="email" required="required" id="inputEmail">
+                                        <span class="contact-text">Email</span>
+                                        <span class="contact-line"></span>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="inputBox">
+                                        <input type="text" name="mobile" required="required" id="inputMobile">
+                                        <span class="contact-text">Mobile Phone</span>
+                                        <span class="contact-line"></span>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+    
+                            <div class="row">
+                                <div class="col">
+                                    <div class="inputBox textarea">
+                                        <textarea required="required" rows="10" name="message" id="inputMessage"></textarea>
+                                        <span class="contact-text">Your message...</span>
+                                        <span class="contact-line"></span>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="row">
+                                <div class="col">
+                                    <button id="my-form-button" href="#">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        Send
+                                    </button>
+                                </div>
+                            </div>
 
-                        <div class="row">
-                            <div class="col">
-                                <div class="inputBox">
-                                    <input type="text" name="" required="required">
-                                    <span class="contact-text">Email</span>
-                                    <span class="contact-line"></span>
+                            <div class="row">
+                                <div class="col">
+                                    <p id="my-form-status"></p>
                                 </div>
                             </div>
-                            <div class="col">
-                                <div class="inputBox">
-                                    <input type="text" name="" required="required">
-                                    <span class="contact-text">Mobile Phone</span>
-                                    <span class="contact-line"></span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col">
-                                <div class="inputBox textarea">
-                                    <textarea required="required" rows="10"></textarea>
-                                    <span class="contact-text">Your message...</span>
-                                    <span class="contact-line"></span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col">
-                                <a href="#">
-                                    <span></span>
-                                    <span></span>
-                                    <span></span>
-                                    <span></span>
-                                    Send
-                                </a>
-                            </div>
-                        </div>
+                        </form>                        
                     </div>
                 </div>
             </section>
@@ -1107,6 +1129,7 @@
     <script src="js/collapse.js"></script>
     <script src="js/modal.js"></script>
     <script src="js/timeline.js"></script>
+    <script src="js/sendEmail.js"></script>
     <!-- <script src="js/active.js"></script> -->
     <!-- <script src="js/scrolling.js"></script> -->
 
@@ -1118,7 +1141,6 @@
             once: true,
         });
     </script>
-
 
     <!--Bootsrap JavaScript-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
