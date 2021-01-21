@@ -119,11 +119,12 @@
 }
   
 
-.contact-container .row .col a{
+.contact-container .row .col button{
     padding: 7px 35px;
     cursor: pointer;
     /* border: 2px solid #0cb99f; */
     outline: none;
+    border: none;
     background: transparent;
     color: white;
     font-size: 18px;
@@ -137,7 +138,7 @@
     transition: 0.2s;
 }
 
-.contact-container .row .col a:hover{
+.contact-container .row .col button:hover{
     color: black;
     background: #0cb99f;
     box-shadow: 0 0 5px #0cb99f, 0 0 25px #0cb99f, 0 0 50px #0cb99f, 0 0 200px #0cb99f;
@@ -145,12 +146,12 @@
     border: none;
 }
 
-.contact-container .row .col a span{
+.contact-container .row .col button span{
     position: absolute;
     display: block;
 }
 
-.contact-container .row .col a span:nth-child(1){
+.contact-container .row .col button span:nth-child(1){
     top: 0;
     left: -100%;
     width: 100%;
@@ -169,7 +170,7 @@
     }
 }
 
-.contact-container .row .col a span:nth-child(3){
+.contact-container .row .col button span:nth-child(3){
     bottom: 0;
     right: -100%;
     width: 100%;
@@ -188,7 +189,7 @@
     }
 }
 
-.contact-container .row .col a span:nth-child(2){
+.contact-container .row .col button span:nth-child(2){
     top: -100%;
     right: 0;
     width: 2px;
@@ -207,7 +208,7 @@
     }
 }
 
-.contact-container .row .col a span:nth-child(4){
+.contact-container .row .col button span:nth-child(4){
     bottom: -100%;
     left: 0;
     width: 2px;
