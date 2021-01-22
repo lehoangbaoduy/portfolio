@@ -126,6 +126,7 @@
 .social-media ul li a{
     width: 40px;
     height: 40px;
+    cursor: pointer;
     display: block;
     transition: .5s;
     background: transparent;
