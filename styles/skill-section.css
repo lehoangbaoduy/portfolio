@@ -15,6 +15,29 @@ a{text-decoration:none; cursor: auto;}
     background-color: #2fcea5;
 }
 
+.fa-globe:hover{
+    box-shadow: 0 0 5px #ec496e, 0 0 25px #ec496e, 0 0 50px #ec496e, 0 0 200px #ec496e;
+    cursor: pointer;
+    transition: 0.75s;
+}
+
+.fa-code:hover{
+    box-shadow: 0 0 5px #f9850f, 0 0 25px #f9850f, 0 0 50px #f9850f, 0 0 200px #f9850f;
+    cursor: pointer;
+    transition: 0.75s;
+}
+
+.fa-server:hover{
+    box-shadow: 0 0 5px #8fb800, 0 0 25px #8fb800, 0 0 50px #8fb800, 0 0 200px #8fb800;
+    cursor: pointer;
+    transition: 0.75s;
+}
+
+.fa-ellipsis-h:hover{
+    box-shadow: 0 0 5px #2fcea5, 0 0 25px #2fcea5, 0 0 50px #2fcea5, 0 0 200px #2fcea5;
+    cursor: pointer;
+    transition: 0.75s;
+}
 
 .main-timeline{position:relative;}
 .main-timeline:before{content:"";width:5px;height:100%;border-radius:20px;margin:0 auto;background:grey;position:absolute;top:0;left:0;right:0}
