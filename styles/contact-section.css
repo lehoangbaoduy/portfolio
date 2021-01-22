@@ -218,6 +218,11 @@
     animation-delay: .75s;
 }
 
+.contact-section #my-form-status{
+    font-size: 20px;
+    color: white;
+}
+
 @keyframes contactbtn4{
     0%{
         bottom: -100%;
