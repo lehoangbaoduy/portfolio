@@ -12,6 +12,7 @@ window.addEventListener("DOMContentLoaded", function() {
     function success() {
       form.reset();
       button.style = "display: none; transition: 1s;";
+      status.style = "color: white; font-size: 35px; text-transform: initial"
       status.innerHTML = "Thanks for contacting me! I will reply to you soon!";
     }
 
