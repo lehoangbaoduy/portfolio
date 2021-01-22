@@ -344,8 +344,13 @@ a:hover{
     transition: .3s;
 }
 
+.fa-facebook-f{
+    color: #4267b2;
+}
+
 .icon:hover{
     color: #013974;
+    cursor: pointer;
 }
 
 .buttons-wrapper{
