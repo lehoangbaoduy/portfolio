@@ -8,7 +8,7 @@
     width: 80vw;
 }
 
-#firstradio, #secondradio, #thirdradio, #fourthradio, #fifthradio{
+#firstradio, #secondradio, #thirdradio, #fourthradio, #fifthradio, #sixthradio{
     display: none;
 }
 
@@ -32,7 +32,7 @@ ul.navlist{
 ul.navlist li{
     list-style: none;
     float: left;
-    width: 20%;
+    width: calc(100% / 6);
     text-align: center;
     color: white;
     text-transform: uppercase;
@@ -94,12 +94,12 @@ ul.navlist li.active::after{
 }
 
 .line{
-    width: 80%;
+    width: 85%;
     margin: auto;
     background: #eee;
     height: 7px;
     position: absolute;
-    left: 10%;
+    left: 7.5%;
     top: 47px;
     z-index: 1;
     border-radius: 50px;
@@ -171,6 +171,10 @@ ul.navlist li.active::after{
     margin-bottom: 150px;
 }
 
+.sixth:checked ~ .experience-content{
+    margin-bottom: 150px;
+}
+
 
 .first:checked ~ .head .navlist li.st1::before,
 
@@ -190,29 +194,40 @@ ul.navlist li.active::after{
 .fifth:checked ~ .head .navlist li.st2:before,
 .fifth:checked ~ .head .navlist li.st3:before,
 .fifth:checked ~ .head .navlist li.st4:before,
-.fifth:checked ~ .head .navlist li.st5:before {
+.fifth:checked ~ .head .navlist li.st5:before,
+
+.sixth:checked ~ .head .navlist li.st1:before,
+.sixth:checked ~ .head .navlist li.st2:before,
+.sixth:checked ~ .head .navlist li.st3:before,
+.sixth:checked ~ .head .navlist li.st4:before,
+.sixth:checked ~ .head .navlist li.st5:before,
+.sixth:checked ~ .head .navlist li.st6:before{
     border: 2px solid #fff;
     background: #0cb99f;
     transition: .3s all ease;
 }
 
 .second:checked ~ .head .line span{
-    width: 25%;
+    width: 20%;
 }
 
 .third:checked ~ .head .line span{
-    width: 50%;
+    width: 40%;
 }
 
 .fourth:checked ~ .head .line span{
-    width: 75%;
+    width: 60%;
 }
 
 .fifth:checked ~ .head .line span{
+    width: 80%;
+}
+
+.sixth:checked ~ .head .line span{
     width: 100%;
 }
 
-.first-section, .second-section, .third-section, .fourth-section, .fifth-section{
+.first-section, .second-section, .third-section, .fourth-section, .fifth-section, .sixth-section{
     transform: scale(0);
     transform-origin: center bottom;
     transition: .7s all ease;
@@ -224,7 +239,8 @@ ul.navlist li.active::after{
 .second:checked ~ .experience-content .second-section,
 .third:checked ~ .experience-content .third-section,
 .fourth:checked ~ .experience-content .fourth-section,
-.fifth:checked ~ .experience-content .fifth-section {
+.fifth:checked ~ .experience-content .fifth-section,
+.sixth:checked ~ .experience-content .sixth-section{
     display: block;
     transform: scale(1);
     transform-origin: bottom; 
@@ -290,6 +306,10 @@ ul.navlist li.active::after{
     .fourth:checked ~ .experience-content{
         margin-bottom: 300px;
     }
+
+    .sixth:checked ~ .experience-content{
+        margin-bottom: 300px;
+    }
 }
 
 @media (max-width: 470px){
@@ -302,10 +322,18 @@ ul.navlist li.active::after{
     .fourth:checked ~ .experience-content{
         margin-bottom: 350px;
     }
+
+    .sixth:checked ~ .experience-content{
+        margin-bottom: 350px;
+    }
 }
 
 @media (max-width: 373px){
     .fourth:checked ~ .experience-content{
+        margin-bottom: 380px;
+    }
+
+    .sixth:checked ~ .experience-content{
         margin-bottom: 380px;
     }
 }
@@ -313,6 +341,10 @@ ul.navlist li.active::after{
 @media (max-width: 330px){
     .fourth:checked ~ .experience-content{
         margin-bottom: 450px;
+    }
+
+    .sixth:checked ~ .experience-content{
+        margin-bottom: 400px;
     }
 }
 
