@@ -16,6 +16,10 @@
     <link href="/your-path-to-fontawesome/css/brands.css" rel="stylesheet">
     <link href="/your-path-to-fontawesome/css/solid.css" rel="stylesheet">
 
+    <!--AOS Link-->
+    <link rel="stylesheet" href="aos-by-red.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!--Icon on top-->
     <link rel="icon" href="assets/images/logo_top.png" />
 
@@ -47,13 +51,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Katibeh&display=swap" rel="stylesheet">
 
-
-
     <!--Custom CSS-->
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/about-section.css">
     <link rel="stylesheet" href="styles/experience-section.css">
-    <link rel="stylesheet" href="styles/skill-section.css">
+    <!-- <link rel="stylesheet" href="styles/skill-section.css">  -->
+    <link rel="stylesheet" href="styles/testing.css">
     <link rel="stylesheet" href="styles/education-section.css">
     <link rel="stylesheet" href="styles/project-section.css">
     <link rel="stylesheet" href="styles/contact-section.css">
@@ -63,6 +66,7 @@
     <link rel="stylesheet" href="styles/nav.css">
     <link rel="stylesheet" href="styles/transition.css">
     <link rel="stylesheet" href="styles/preloader.css">
+
     <title>Hoang Bao Duy Le</title>
 </head>
 
@@ -78,7 +82,6 @@
             </div>
         </div>
     </div>
-
 
     <!-- <div class="transition transition-2 is-active"></div> -->
 
@@ -418,7 +421,7 @@
                 </div>
             </section>
 
-            <section id="experience-main" class="my-5">
+            <section id="experience-main" class="my-5" data-aos="zoom-out">
                 <h1 class="text-center">
                     <span data-text="EXPERIENCE" id="header" class="text-center">EXPERIENCE</span>
                 </h1>
@@ -742,7 +745,7 @@
                                     <div class="timeline-content">
                                         <h3 class="title title-other">Other</h3>
                                         <p class="skill-description mb-2">
-                                            Everything else I know beside programming and web development. Most of them contain Data Science concept which are AI and Machine Learning.
+                                            Everything else I know beside programming and web development. Most of them contains Data Science concept which are AI and Machine Learning.
                                         </p>
 
                                         <div id="datascience" class="pl-5">
@@ -807,7 +810,9 @@
                 </div>
             </section>
 
-            <section id="education-main">
+
+
+            <section id="education-main" data-aos="flip-left" class="my-5">
                 <h1 class="mb-5 text-center">
                     <span data-text="EDUCATION" id="header" class="text-center">EDUCATION</span>
                 </h1>
@@ -853,10 +858,10 @@
                                         </div>
 
                                         <div class="icons-container">
-                                            <a href="https://www.linkedin.com/in/hoang-bao-duy-le/" class="icon text-primary"><i class="fab fa-linkedin-in"></i></a>
-                                            <a href="https://www.instagram.com/mabulee/" class="icon text-danger"><i class="fab fa-instagram"></i></a>
-                                            <a href="https://www.facebook.com/baoduy2408" class="icon text-info"><i class="fab fa-facebook-f"></i></a>
-                                            <a href="https://github.com/lehoangbaoduy" class="icon text-dark"><i class="fab fa-github"></i></a>                                        
+                                            <a href="" class="icon text-primary"><i class="fab fa-linkedin-in"></i></a>
+                                            <a href="" class="icon text-danger"><i class="fab fa-instagram"></i></a>
+                                            <a href="" class="icon text-info"><i class="fab fa-facebook-f"></i></a>
+                                            <a href="" class="icon text-dark"><i class="fab fa-github"></i></a>
                                         </div>
 
                                         <div class="buttons-wrapper">
@@ -928,10 +933,10 @@
                                         </div>
 
                                         <div class="icons-container">
-                                            <a href="https://www.linkedin.com/in/hoang-bao-duy-le/" class="icon text-primary"><i class="fab fa-linkedin-in"></i></a>
-                                            <a href="https://www.instagram.com/mabulee/" class="icon text-danger"><i class="fab fa-instagram"></i></a>
-                                            <a href="https://www.facebook.com/baoduy2408" class="icon text-info"><i class="fab fa-facebook-f"></i></a>
-                                            <a href="https://github.com/lehoangbaoduy" class="icon text-dark"><i class="fab fa-github"></i></a>
+                                            <a href="" class="icon text-primary"><i class="fab fa-linkedin-in"></i></a>
+                                            <a href="" class="icon text-danger"><i class="fab fa-instagram"></i></a>
+                                            <a href="" class="icon text-info"><i class="fab fa-facebook-f"></i></a>
+                                            <a href="" class="icon text-dark"><i class="fab fa-github"></i></a>
                                         </div>
 
                                         <div class="buttons-wrapper">
@@ -1007,42 +1012,6 @@
                                         Science Club. <br> <br>
                                         - Responsible for designing the front-end and animation.
                                     </div>
-                                </div>                                
-
-                                <div class="project-box">
-                                    <div class="project-icon">
-                                        <i class="fas fa-microphone-alt"></i>
-                                    </div>
-
-                                    <div class="project-title">
-                                        Speech Emotion Recognition (Jan 2021 - Present)
-                                    </div>
-
-                                    <div class="project-description">
-                                        - In this work, we conduct an extensive comparison of various approaches to speech based 
-                                        emotion recognition systems. <br> <br>
-                                        - After pre-processing the raw audio files, features such as Log-Mel Spectrogram, 
-                                        Mel-Frequency Cepstral Coefficients (MFCCs), pitch and energy were considered. <br> <br>
-                                        - Apply Long Short Term Memory (HMMs) and Deep Neural Networks (DNNs). <br> <br>
-                                        - Implemented Python for all steps.
-                                    </div>
-                                </div>
-
-                                <div class="project-box" id="credit">
-                                    <div class="project-icon">
-                                        <i class="far fa-newspaper"></i>
-                                    </div>
-
-                                    <div class="project-title">
-                                        Fake News Detector (Jan 2021 - Present)
-                                    </div>
-
-                                    <div class="project-description">
-                                        - Researched about numerous related topics, including logistics regression, 
-                                        random forest, decision tree, etc <br> <br>
-                                        - Created a model to tell whether the news is legit or not. <br> <br>
-                                        - Implemented Python for both steps.
-                                    </div>
                                 </div>
 
                                 <div class="project-box">
@@ -1062,6 +1031,7 @@
                                             to change from
                                             selling on
                                             Instagram to sell on this website.</span>
+
                                     </div>
                                 </div>
 
@@ -1078,7 +1048,9 @@
                                         - Modeled customers based on their basic attributes using several Machine
                                         Learning concepts. <br> <br>
                                         - Researched about numerous related topics, including logistics regression, FICO
-                                        Score System, or Vantage Score System. <br> <br>
+                                        Score System,
+                                        or Vantage
+                                        Score System. <br> <br>
                                         - Created a model to tell whether the bank should issue the loan for
                                         applicants. <br> <br>
                                         - Implemented Python and SAS for both steps.
@@ -1097,7 +1069,7 @@
 
                 <div class="contact-content" data-aos="fade-left">
                     <div class="contact-container">
-                        <form action="https://formspree.io/f/mrgojkvl" method="POST" id="contact-form" autocomplete="off">
+                        <form action="https://formspree.io/f/mrgojkvl" method="POST" id="contact-form">
                             <div class="row">
                                 <div class="col">
                                     <div class="inputBox">
@@ -1172,14 +1144,18 @@
     <script src="js/modal.js"></script>
     <script src="js/timeline.js"></script>
     <script src="js/sendEmail.js"></script>
+    <script src="js/testingTimeline.js"></script>
     <!-- <script src="js/active.js"></script> -->
     <!-- <script src="js/scrolling.js"></script> -->
 
+    <!--AOS Script-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-        let education = document.querySelector("#education-main");
-        window.scrollTo(0, education.offsetTop);
+        AOS.init({
+            duration: 3000,
+            once: true,
+        });
     </script>
-
 
     <!--Bootsrap JavaScript-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
