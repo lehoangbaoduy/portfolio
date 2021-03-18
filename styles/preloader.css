@@ -18,6 +18,8 @@
     width: 200px;
     height: 200px;    
     position: relative;
+    box-shadow: 5px 1px 50px 1px deepskyblue;
+    border-radius: 50%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);

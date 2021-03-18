@@ -4,7 +4,6 @@ a:hover{
 
 .education-content{
     width: 100%;
-    max-width: 1400px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -344,8 +343,13 @@ a:hover{
     transition: .3s;
 }
 
+.fa-facebook-f{
+    color: #4267b2;
+}
+
 .icon:hover{
     color: #013974;
+    cursor: pointer;
 }
 
 .buttons-wrapper{
