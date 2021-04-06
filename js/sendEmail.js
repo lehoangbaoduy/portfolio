@@ -6,10 +6,8 @@
         var mobile = $('#inputMobile');
         var message = $('#inputMessage');
     
-        e.preventDefault();
-    
         if (!fname.val() || !lname.val() || !email.val() || !mobile.val() || !message.val()){
-            alert("Please check your entries.");
+            alertify.error("Please check your entries.");
         } else {
             $.ajax({
                 url: "https://formspree.io/lehoangbaoduy2000@gmail.com",
@@ -20,7 +18,7 @@
     
             e.preventDefault();        
             $(this).get(0).reset();
-            alert("Thank you! I will contact you soon.");
+            alertify.success("Thank you! I will contact you soon.");
         }
     })
 
