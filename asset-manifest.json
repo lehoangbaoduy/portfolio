@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.2737021a.css",
-    "main.js": "/portfolio/static/js/main.506f5bfe.js",
+    "main.js": "/portfolio/static/js/main.35c3de0a.js",
     "static/js/453.71e48246.chunk.js": "/portfolio/static/js/453.71e48246.chunk.js",
     "static/media/project_4_preview.jpg": "/portfolio/static/media/project_4_preview.96a5ce32b19eec95f72c.jpg",
     "static/media/project_5_preview.jpg": "/portfolio/static/media/project_5_preview.2fe80f2caf7c1498f3f7.jpg",
@@ -9,6 +9,14 @@
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/portfolio/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/Resume.pdf": "/portfolio/static/media/Resume.1c45393582b16fcf51a3.pdf",
     "static/media/toledo.ico": "/portfolio/static/media/toledo.90762de787b7c818b045.ico",
+    "static/media/udemy_blockchain_cert.jpg": "/portfolio/static/media/udemy_blockchain_cert.252493de7ae5d627e91e.jpg",
+    "static/media/udemy_node_cert.jpg": "/portfolio/static/media/udemy_node_cert.f35993939e9fc71d04f7.jpg",
+    "static/media/udemy_python_cert.jpg": "/portfolio/static/media/udemy_python_cert.7115cb4abf2163fea929.jpg",
+    "static/media/udemy_react_cert.jpg": "/portfolio/static/media/udemy_react_cert.bc2ba71bc8a4bd6fe65e.jpg",
+    "static/media/udemy_agentic_cert.jpg": "/portfolio/static/media/udemy_agentic_cert.eeaf42962c389702109e.jpg",
+    "static/media/udemy_llm_cert.jpg": "/portfolio/static/media/udemy_llm_cert.dcc62d98ffc0aa354de1.jpg",
+    "static/media/udemy_mongo_cert.jpg": "/portfolio/static/media/udemy_mongo_cert.6205f5561ca6873bd27c.jpg",
+    "static/media/udemy_web_cert.jpg": "/portfolio/static/media/udemy_web_cert.7a69fd478278c6869923.jpg",
     "static/media/fontawesome-webfont.eot": "/portfolio/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/portfolio/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
     "static/media/dark.jpg": "/portfolio/static/media/dark.f18539d7818c16c82399.jpg",
@@ -17,7 +25,9 @@
     "static/media/project_3_4.jpg": "/portfolio/static/media/project_3_4.21413d93944089960fd4.jpg",
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/portfolio/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
     "static/media/project_2_preview.jpg": "/portfolio/static/media/project_2_preview.c82613cc5b0ac7133490.jpg",
+    "static/media/aws.png": "/portfolio/static/media/aws.f280921c1359b0c16596.png",
     "static/media/project_3_1.jpg": "/portfolio/static/media/project_3_1.e293b5338870eb972cb4.jpg",
+    "static/media/aws_certification.png": "/portfolio/static/media/aws_certification.27828a053ae63f294303.png",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/portfolio/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "static/media/tran_dai_nghia_high_school.ico": "/portfolio/static/media/tran_dai_nghia_high_school.2bd75817861a7c76e1a5.ico",
     "static/media/project_1_preview.jpg": "/portfolio/static/media/project_1_preview.c1541b32659648244c7d.jpg",
@@ -25,11 +35,17 @@
     "static/media/img-mobile.jpg": "/portfolio/static/media/img-mobile.e238b4c526a9035507e2.jpg",
     "static/media/project_3_2.jpg": "/portfolio/static/media/project_3_2.12255adb6030783ca8fd.jpg",
     "static/media/project_1.jpg": "/portfolio/static/media/project_1.a11e72f33777cf32e287.jpg",
+    "static/media/coursera.png": "/portfolio/static/media/coursera.a037638017ea91d66ead.png",
     "static/media/james.png": "/portfolio/static/media/james.bcae108a29403559997e.png",
     "static/media/logo.ico": "/portfolio/static/media/logo.64d8d0b907440626d1c3.ico",
     "static/media/steve.png": "/portfolio/static/media/steve.be9d78bedb04a4fd19b1.png",
+    "static/media/udemy_sql_cert.jpg": "/portfolio/static/media/udemy_sql_cert.13dab48e0599649b2b21.jpg",
     "static/media/birdwell.png": "/portfolio/static/media/birdwell.40b008e251210ae8484b.png",
+    "static/media/udemy_asp_cert.jpg": "/portfolio/static/media/udemy_asp_cert.f7a922a59a5c4772045d.jpg",
+    "static/media/udemy_js_cert.jpg": "/portfolio/static/media/udemy_js_cert.412b7c8d27ae984b1dbc.jpg",
     "static/media/jeff.png": "/portfolio/static/media/jeff.db25aae54960a318b5de.png",
+    "static/media/udemy.png": "/portfolio/static/media/udemy.fa28a194b6019e6da81c.png",
+    "static/media/udemy_git_cert.jpg": "/portfolio/static/media/udemy_git_cert.5245edb81fa099ce1d18.jpg",
     "static/media/project_2.jpg": "/portfolio/static/media/project_2.964773bdffc4a78a5250.jpg",
     "static/media/project_3.jpg": "/portfolio/static/media/project_3.964773bdffc4a78a5250.jpg",
     "static/media/project_4.jpg": "/portfolio/static/media/project_4.964773bdffc4a78a5250.jpg",
@@ -41,11 +57,11 @@
     "index.html": "/portfolio/index.html",
     "static/media/slick.woff": "/portfolio/static/media/slick.295183786cd8a1389865.woff",
     "main.2737021a.css.map": "/portfolio/static/css/main.2737021a.css.map",
-    "main.506f5bfe.js.map": "/portfolio/static/js/main.506f5bfe.js.map",
+    "main.35c3de0a.js.map": "/portfolio/static/js/main.35c3de0a.js.map",
     "453.71e48246.chunk.js.map": "/portfolio/static/js/453.71e48246.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2737021a.css",
-    "static/js/main.506f5bfe.js"
+    "static/js/main.35c3de0a.js"
   ]
 }
